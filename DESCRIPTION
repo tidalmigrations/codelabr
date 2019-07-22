@@ -1,0 +1,20 @@
+Package: codelabr
+Type: Package
+Title: R Markdown Format for Codelab-like HTML Documents
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Petr", "Shevtsov", role = c("aut", "cre"),
+           email = "petr.shevtsov@tidalmigrations.com"),
+    person(family = "Tidal Migrations", role = "cph")
+  )
+Description: R Markdown format for Codelab-like HTML documents.
+License: MIT
+URL: https://github.com/tidalmigrations/codelabr
+BugReports: https://github.com/tidalmigrations/codelabr/issues
+Depends:
+    R (>= 3.0)
+Imports:
+    rmarkdown (>= 1.0)
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)

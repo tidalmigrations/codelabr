@@ -1,0 +1,32 @@
+---
+title: "Untitled"
+output: codelabr::codelab
+---
+
+## R Markdown {data-duration=5}
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for
+authoring HTML, PDF, and MS Word documents. For more details on using R Markdown
+see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes
+both content as well as the output of any embedded R code chunks within the
+document.
+
+## Step with Bullets {data-duration=3}
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Step with R Code and Output {data-duration=10}
+
+```{r}
+summary(cars)
+```
+
+## Step with Plot {data-duration=7}
+
+```{r, echo=FALSE}
+plot(cars)
+```
